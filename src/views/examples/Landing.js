@@ -81,16 +81,33 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        what you are excited about in tech.{" "}
+                        <span>Why am I excited about technology</span>
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                        The excitement with technology is just knowing what's next.
+                        New innovations take technology to another level, no one can
+                        predict where technology will take us in the coming years.
+                        So what achievements technology will bring next is the best
+                        thing that is impressive. Apart from that, hearing the facts
+                        about technology from the tech experts is also another best
+                        thing that gets a lot of excitement. Here are some interesting
+                        articles I like about technology facts that would be good to read.
+
                       </p>
+                      <div>
+                        <Badge color="success" pill className="mr-1" href="https://www.pewresearch.org/fact-tank/2015/03/20/10-facts-about-technology-use-emerging-world/">
+                          10 Facts About Technology Use In The Emerging World
+                        </Badge>
+                        <Badge color="success" pill className="mr-1" href="https://www.jla.co.uk/never-technology-people/">
+                          It’s Never About Technology But About The People
+                        </Badge>
+                        <Badge color="success" pill className="mr-1" href="https://www.informationweek.com/executive-insights-and-innovation/why-you-should-be-excited-about-future-tech">
+                          Why You should Be Excited About Future Tec
+                        </Badge>
+                      </div>
                       <div className="btn-wrapper">
-                        <Button
+                        {/* <Button
                           className="btn-icon mb-3 mb-sm-0"
                           color="info"
                           href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
@@ -99,8 +116,8 @@ class Landing extends React.Component {
                             <i className="fa fa-code" />
                           </span>
                           <span className="btn-inner--text">Components</span>
-                        </Button>
-                        <Button
+                        </Button> */}
+                        {/* <Button
                           className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                           color="default"
                           href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
@@ -111,7 +128,7 @@ class Landing extends React.Component {
                           <span className="btn-inner--text">
                             Download React
                           </span>
-                        </Button>
+                        </Button> */}
                       </div>
                     </Col>
                   </Row>
@@ -145,39 +162,38 @@ class Landing extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
-                            <i className="ni ni-check-bold" />
+                            {/* <i className="ni ni-check-bold" /> */}
+                            <img src="https://instructure-uploads.s3.amazonaws.com/account_70000000000010/attachments/64870654/code-fellows-logo-shield-for-canvas.png?response-content-disposition=attachment%3B%20filename%3D%22code-fellows-logo-shield-for-canvas.png%22%3B%20filename%2A%3DUTF-8%27%27code%252Dfellows%252Dlogo%252Dshield%252Dfor%252Dcanvas.png&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJDW777BLV26JM2MQ%2F20210916%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210916T132803Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=471b39374d22485fd0d074473d0ab2db93c758813432029c64ea74b8c4986262" style={{ width: '45px' }} />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            My projects in 201
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            This is all projects I do in 201
                           </p>
                           <div>
-                            <Badge color="primary" pill className="mr-1">
-                              design
+                            <Badge color="primary" pill className="mr-1" href="https://hesham-hassan9.github.io/cookie-stand/">
+                              cookie-stand
                             </Badge>
-                            <Badge color="primary" pill className="mr-1">
-                              system
+                            <Badge color="primary" pill className="mr-1" href="https://hesham-hassan9.github.io/BusMall/">
+                              BusMall
                             </Badge>
-                            <Badge color="primary" pill className="mr-1">
-                              creative
+                            <Badge color="primary" pill className="mr-1" href="https://foooodie.github.io/FOODIE/">
+                              Finel project "FOODIE"
                             </Badge>
                           </div>
-                          <Button
+                          {/* <Button
                             className="mt-4"
                             color="primary"
                             href="#pablo"
                             onClick={e => e.preventDefault()}
                           >
                             Learn more
-                          </Button>
+                          </Button> */}
                         </CardBody>
                       </Card>
                     </Col>
-                    <Col lg="4">
+                    {/* <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
@@ -212,40 +228,39 @@ class Landing extends React.Component {
                           </Button>
                         </CardBody>
                       </Card>
-                    </Col>
+                    </Col> */}
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
-                            <i className="ni ni-planet" />
+                            {/* <i className="ni ni-planet" /> */}
+                            <img src="https://instructure-uploads.s3.amazonaws.com/account_70000000000010/attachments/64870654/code-fellows-logo-shield-for-canvas.png?response-content-disposition=attachment%3B%20filename%3D%22code-fellows-logo-shield-for-canvas.png%22%3B%20filename%2A%3DUTF-8%27%27code%252Dfellows%252Dlogo%252Dshield%252Dfor%252Dcanvas.png&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJDW777BLV26JM2MQ%2F20210916%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210916T132803Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=471b39374d22485fd0d074473d0ab2db93c758813432029c64ea74b8c4986262" style={{ width: '45px' }} />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            My projects in 301
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                          I still working in my projects 301. if I done, I will update the page
                           </p>
                           <div>
-                            <Badge color="warning" pill className="mr-1">
-                              marketing
+                            <Badge color="warning" pill className="mr-1" href="https://horned-animals99.netlify.app/">
+                              Horned Animals
                             </Badge>
-                            <Badge color="warning" pill className="mr-1">
+                            {/* <Badge color="warning" pill className="mr-1">
                               product
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
                               launch
-                            </Badge>
+                            </Badge> */}
                           </div>
-                          <Button
+                          {/* <Button
                             className="mt-4"
                             color="warning"
                             href="#pablo"
                             onClick={e => e.preventDefault()}
                           >
                             Learn more
-                          </Button>
+                          </Button> */}
                         </CardBody>
                       </Card>
                     </Col>
@@ -331,7 +346,7 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
-          <section className="section bg-secondary">
+          {/* <section className="section bg-secondary">
             <Container>
               <Row className="row-grid align-items-center">
                 <Col md="6">
@@ -401,112 +416,9 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section>
-          <section className="section pb-0 bg-gradient-warning">
-            <Container>
-              <Row className="row-grid align-items-center">
-                <Col className="order-lg-2 ml-lg-auto" md="6">
-                  <div className="position-relative pl-md-5">
-                    <img
-                      alt="..."
-                      className="img-center img-fluid"
-                      src={ill2}
-                    />
-                  </div>
-                </Col>
-                <Col className="order-lg-1" lg="6">
-                  <div className="d-flex px-3">
-                    <div>
-                      <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                        <i className="ni ni-building text-primary" />
-                      </div>
-                    </div>
-                    <div className="pl-4">
-                      <h4 className="display-3 text-white">Modern Interface</h4>
-                      <p className="text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever.
-                      </p>
-                    </div>
-                  </div>
-                  <Card className="shadow shadow-lg--hover mt-5">
-                    <CardBody>
-                      <div className="d-flex px-3">
-                        <div>
-                          <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
-                            <i className="ni ni-satisfied" />
-                          </div>
-                        </div>
-                        <div className="pl-4">
-                          <h5 className="title text-success">
-                            Awesome Support
-                          </h5>
-                          <p>
-                            The Arctic Ocean freezes every winter and much of
-                            the sea-ice then thaws every summer, and that
-                            process will continue whatever.
-                          </p>
-                          <a
-                            className="text-success"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </a>
-                        </div>
-                      </div>
-                    </CardBody>
-                  </Card>
-                  <Card className="shadow shadow-lg--hover mt-5">
-                    <CardBody>
-                      <div className="d-flex px-3">
-                        <div>
-                          <div className="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                            <i className="ni ni-active-40" />
-                          </div>
-                        </div>
-                        <div className="pl-4">
-                          <h5 className="title text-warning">
-                            Modular Components
-                          </h5>
-                          <p>
-                            The Arctic Ocean freezes every winter and much of
-                            the sea-ice then thaws every summer, and that
-                            process will continue whatever.
-                          </p>
-                          <a
-                            className="text-warning"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </a>
-                        </div>
-                      </div>
-                    </CardBody>
-                  </Card>
-                </Col>
-              </Row>
-            </Container>
-            {/* SVG separator */}
-            <div className="separator separator-bottom separator-skew zindex-100">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                preserveAspectRatio="none"
-                version="1.1"
-                viewBox="0 0 2560 100"
-                x="0"
-                y="0"
-              >
-                <polygon
-                  className="fill-white"
-                  points="2560 0 2560 100 0 100"
-                />
-              </svg>
-            </div>
-          </section>
-          <section className="section section-lg">
+          </section> */}
+          
+          {/* <section className="section section-lg">
             <Container>
               <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
@@ -691,8 +603,8 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section>
-          <section className="section section-lg pt-0">
+          </section> */}
+          {/* <section className="section section-lg pt-0">
             <Container>
               <Card className="bg-gradient-warning shadow-lg border-0">
                 <div className="p-5">
@@ -722,71 +634,9 @@ class Landing extends React.Component {
                 </div>
               </Card>
             </Container>
-          </section>
-          <section className="section section-lg bg-gradient-default">
-            <Container className="pt-lg pb-300">
-              <Row className="text-center justify-content-center">
-                <Col lg="10">
-                  <h2 className="display-3 text-white">Build something</h2>
-                  <p className="lead text-white">
-                    According to the National Oceanic and Atmospheric
-                    Administration, Ted, Scambos, NSIDClead scentist, puts the
-                    potentially record low maximum sea ice extent tihs year down
-                    to low ice.
-                  </p>
-                </Col>
-              </Row>
-              <Row className="row-grid mt-5">
-                <Col lg="4">
-                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-settings text-primary" />
-                  </div>
-                  <h5 className="text-white mt-3">Building tools</h5>
-                  <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </Col>
-                <Col lg="4">
-                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-ruler-pencil text-primary" />
-                  </div>
-                  <h5 className="text-white mt-3">Grow your market</h5>
-                  <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </Col>
-                <Col lg="4">
-                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-atom text-primary" />
-                  </div>
-                  <h5 className="text-white mt-3">Launch time</h5>
-                  <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </Col>
-              </Row>
-            </Container>
-            {/* SVG separator */}
-            <div className="separator separator-bottom separator-skew zindex-100">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                preserveAspectRatio="none"
-                version="1.1"
-                viewBox="0 0 2560 100"
-                x="0"
-                y="0"
-              >
-                <polygon
-                  className="fill-white"
-                  points="2560 0 2560 100 0 100"
-                />
-              </svg>
-            </div>
-          </section>
-          <section className="section section-lg pt-lg-0 section-contact-us">
+          </section> */}
+         
+          {/* <section className="section section-lg pt-lg-0 section-contact-us">
             <Container>
               <Row className="justify-content-center mt--300">
                 <Col lg="8">
@@ -860,7 +710,7 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section>
+          </section> */}
           <Download />
         </main>
         <CardsFooter />
@@ -870,3 +720,177 @@ class Landing extends React.Component {
 }
 
 export default Landing;
+
+
+// <section className="section pb-0 bg-gradient-warning">
+//             <Container>
+//               <Row className="row-grid align-items-center">
+//                 <Col className="order-lg-2 ml-lg-auto" md="6">
+//                   <div className="position-relative pl-md-5">
+//                     <img
+//                       alt="..."
+//                       className="img-center img-fluid"
+//                       src={ill2}
+//                     />
+//                   </div>
+//                 </Col>
+//                 <Col className="order-lg-1" lg="6">
+//                   <div className="d-flex px-3">
+//                     <div>
+//                       <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
+//                         <i className="ni ni-building text-primary" />
+//                       </div>
+//                     </div>
+//                     <div className="pl-4">
+//                       <h4 className="display-3 text-white">Modern Interface</h4>
+//                       <p className="text-white">
+//                         The Arctic Ocean freezes every winter and much of the
+//                         sea-ice then thaws every summer, and that process will
+//                         continue whatever.
+//                       </p>
+//                     </div>
+//                   </div>
+//                   <Card className="shadow shadow-lg--hover mt-5">
+//                     <CardBody>
+//                       <div className="d-flex px-3">
+//                         <div>
+//                           <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
+//                             <i className="ni ni-satisfied" />
+//                           </div>
+//                         </div>
+//                         <div className="pl-4">
+//                           <h5 className="title text-success">
+//                             Awesome Support
+//                           </h5>
+//                           <p>
+//                             The Arctic Ocean freezes every winter and much of
+//                             the sea-ice then thaws every summer, and that
+//                             process will continue whatever.
+//                           </p>
+//                           <a
+//                             className="text-success"
+//                             href="#pablo"
+//                             onClick={e => e.preventDefault()}
+//                           >
+//                             Learn more
+//                           </a>
+//                         </div>
+//                       </div>
+//                     </CardBody>
+//                   </Card>
+//                   <Card className="shadow shadow-lg--hover mt-5">
+//                     <CardBody>
+//                       <div className="d-flex px-3">
+//                         <div>
+//                           <div className="icon icon-shape bg-gradient-warning rounded-circle text-white">
+//                             <i className="ni ni-active-40" />
+//                           </div>
+//                         </div>
+//                         <div className="pl-4">
+//                           <h5 className="title text-warning">
+//                             Modular Components
+//                           </h5>
+//                           <p>
+//                             The Arctic Ocean freezes every winter and much of
+//                             the sea-ice then thaws every summer, and that
+//                             process will continue whatever.
+//                           </p>
+//                           <a
+//                             className="text-warning"
+//                             href="#pablo"
+//                             onClick={e => e.preventDefault()}
+//                           >
+//                             Learn more
+//                           </a>
+//                         </div>
+//                       </div>
+//                     </CardBody>
+//                   </Card>
+//                 </Col>
+//               </Row>
+//             </Container>
+//             {/* SVG separator */}
+//             <div className="separator separator-bottom separator-skew zindex-100">
+//               <svg
+//                 xmlns="http://www.w3.org/2000/svg"
+//                 preserveAspectRatio="none"
+//                 version="1.1"
+//                 viewBox="0 0 2560 100"
+//                 x="0"
+//                 y="0"
+//               >
+//                 <polygon
+//                   className="fill-white"
+//                   points="2560 0 2560 100 0 100"
+//                 />
+//               </svg>
+//             </div>
+//           </section>
+
+
+
+// <section className="section section-lg bg-gradient-default">
+// <Container className="pt-lg pb-300">
+//   <Row className="text-center justify-content-center">
+//     <Col lg="10">
+//       <h2 className="display-3 text-white">Build something</h2>
+//       <p className="lead text-white">
+//         According to the National Oceanic and Atmospheric
+//         Administration, Ted, Scambos, NSIDClead scentist, puts the
+//         potentially record low maximum sea ice extent tihs year down
+//         to low ice.
+//       </p>
+//     </Col>
+//   </Row>
+//   <Row className="row-grid mt-5">
+//     <Col lg="4">
+//       <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
+//         <i className="ni ni-settings text-primary" />
+//       </div>
+//       <h5 className="text-white mt-3">Building tools</h5>
+//       <p className="text-white mt-3">
+//         Some quick example text to build on the card title and make
+//         up the bulk of the card's content.
+//       </p>
+//     </Col>
+//     <Col lg="4">
+//       <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
+//         <i className="ni ni-ruler-pencil text-primary" />
+//       </div>
+//       <h5 className="text-white mt-3">Grow your market</h5>
+//       <p className="text-white mt-3">
+//         Some quick example text to build on the card title and make
+//         up the bulk of the card's content.
+//       </p>
+//     </Col>
+//     <Col lg="4">
+//       <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
+//         <i className="ni ni-atom text-primary" />
+//       </div>
+//       <h5 className="text-white mt-3">Launch time</h5>
+//       <p className="text-white mt-3">
+//         Some quick example text to build on the card title and make
+//         up the bulk of the card's content.
+//       </p>
+//     </Col>
+//   </Row>
+// </Container>
+// {/* SVG separator */}
+// <div className="separator separator-bottom separator-skew zindex-100">
+//   <svg
+//     xmlns="http://www.w3.org/2000/svg"
+//     preserveAspectRatio="none"
+//     version="1.1"
+//     viewBox="0 0 2560 100"
+//     x="0"
+//     y="0"
+//   >
+//     <polygon
+//       className="fill-white"
+//       points="2560 0 2560 100 0 100"
+//     />
+//   </svg>
+// </div>
+// </section>
+
+
