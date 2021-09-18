@@ -38,7 +38,7 @@ class Icons extends React.Component {
                 <div className="btn-wrapper">
                   <Button
                     color="primary"
-                    href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/icons?ref=adsr-landing-page"
+                    href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fbackground&psig=AOvVaw3585S9VNvBu0X4TNP0nJ9A&ust=1632051614113000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKi_z5e4iPMCFQAAAAAdAAAAABAD"
                   >
                     View demo icons
                   </Button>
